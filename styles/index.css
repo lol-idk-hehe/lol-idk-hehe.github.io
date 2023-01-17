@@ -70,14 +70,21 @@ a:hover {
   font-weight: bold;
 }
 
-main {
-  display: grid;
-  justify-content: center;
+article {
   padding: 50px;
 }
 
-main > * {
+article > * {
+  margin-bottom: 30px;
+}
+
+article > * * {
   margin-bottom: 10px;
+}
+
+.main-wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 982px) {
